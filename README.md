@@ -35,11 +35,11 @@
 ### ch05) npm(모듈관리)
     npm : node와 함께 설치됨, 모듈 설치/검색/정보 보기/업데이트/삭제
     전역 설치 : 모든 프로젝트에서 사용 가능, Node.js의 중앙 라이브러리에 설치 lib/node_modules, 관리자 권한 필요. -g옵션
-            유틸성 mocha, nodemon 전역 설치 권장
-            작성) npm install -g 모듈이름
+                유틸성 mocha, nodemon 전역 설치 권장
+                작성) npm install -g 모듈이름
     지역 설치 : 프로젝트마다 설치, 현재 폴더 내 node_modules 폴더
-            개발 필수 라이브러리 & 특정 버전이 필요한 경우 지역 설치 권장
-            작성) npm install 모듈이름, 패키지 정보 기록) npm install 모듈이름 --save
+                개발 필수 라이브러리 & 특정 버전이 필요한 경우 지역 설치 권장
+                작성) npm install 모듈이름, 패키지 정보 기록) npm install 모듈이름 --save
 
 ### ch05) nodemon, 모듈 만들기
     -nodemon : 자동으로 재시작해주는 기능, 작성) nodemon 파일명.js
