@@ -44,3 +44,7 @@
 ### ch05) nodemon/ 모듈 만들기
     -nodemon : 자동으로 재시작해주는 기능, 작성) nodemon 파일명.js
     -모듈 만들기 : 모듈로 만들어 소스 코드 분리. 작성) module.exports 로딩) require('./파일명);
+
+### ch06) 콜백/ Async/ Promise
+    -콜백 : 비동기 방식 함수의 결과를 처리할 때 사용
+    -Async, Promise : 비동기 동작의 흐름 제어
