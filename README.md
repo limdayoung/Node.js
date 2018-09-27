@@ -52,3 +52,8 @@
 ### ch07~8) HTTP 통신, 서버
     -통신 : 요청과 응답의 메세지(라인, 헤더, 바디), 서버 생성
     -서버 : 클라이언트의 요청(request) 분석, 서버의 응답(response) 전송
+
+### ch09) HTTP POST 요청
+    -POST 메소드는 메세지 바디로 정보 전달 (쿼리 : 이름=값)
+    -requset 이벤트의 data와 end 이벤트를 이용해 메세지 바디 분석
+    -POST 재요청 방지를 위한 PRG패턴 사용 (POST-REDIRECT-GET)
